@@ -1,0 +1,14 @@
+on:
+  push:
+    tags: "v*"
+
+jobs:
+  homebrew:
+    name: Bump Homebrew formula
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update Homebrew formula
+        uses: mislav/bump-homebrew-formula-action@v1.4
+        if: "contains(github.ref, 'darwin_amd64')" # only deal with 64-bit macs
+        with:
+          formula-name: gghh
