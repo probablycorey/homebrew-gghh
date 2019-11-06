@@ -1,8 +1,8 @@
 class Gghh < Formula
   desc "wow"
   homepage "cool"
-  url "https://github.com/probablycorey/homebrew-gghh/releases/download/v0.0.51/gghh_0.0.51_darwin_amd64.tar.gz"
-  sha256 "d3d7c5a2f09d3a6e7ace29d898932af984a62bf97f87dd72699258d0b4dd8bf6"
+  url "https://github.com/probablycorey/homebrew-gghh/releases/download/v0.0.61/gghh_0.0.61_darwin_amd64.tar.gz"
+  sha256 "64e8c916d7fbcc0931ead097fcf35c34a9bd2021cece50730893d2800375bed7"
 
   bottle :unneeded
 
